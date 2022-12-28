@@ -1,0 +1,781 @@
+@media (max-width: 376px){
+    .container {
+        max-width: 330px;
+        margin: 0 auto;
+        padding: 0px 15px;
+    }
+    .start::before {
+        display: none;
+    }
+    
+    .header__container {
+        padding: 15px 0px 20px 0px !important;
+    }
+    .burger{
+        margin: 0 0 0 210px;
+    }
+    .header__second{
+        display: none;
+    }
+    .logo__header{
+        max-width: 100px;
+    }
+    .header__invisible{
+        border-top:1px solid rgb(62, 139, 132, 0.3);
+        padding: 24px 0 0 0;
+        display: flex;
+        align-items: center;
+    }
+    .sub-menu__list {
+        max-width: 370px;
+    }
+    .sub-sub-menu__list{
+        left: 106.5%;
+        top: 0;
+        max-width: 370px;
+    }
+    body.touch .sub-sub-menu__list.open {
+        display: block;
+        transition: transform 0.6s ease-in-out;
+        left: 99%;
+        top: 19%;
+    }
+
+
+    /*--------------------------------------------------------начало------------------------------------------*/
+    .h1__start {
+        max-width: 319px;
+        font-size: 40px;
+        line-height: 48px;
+        margin: 0;
+    }
+    .start {
+        background-image: 
+        url("../images/main/home-tab.png");
+        background-position:  right 105%;
+        background-size: 54%;
+    }
+    .start-container {
+        padding: 10px 0 282px 0;
+        
+    }
+    .twigle {
+        display: none;
+    }
+    .items__start {
+        padding: 0;
+        background: none;
+        max-width: 240px;
+    }
+    .start__dot1 {
+        right: 57px;
+        top: 202px;
+    }
+    .start__dot2 {
+        left: 10px;
+        top: 444px;
+        opacity: 0.3;
+    }
+    .start__dot3 {
+        display: none;
+    }
+    .start__dot4 {
+        display: none;
+    }
+    .start__dot7 {
+        display: none;
+    }
+    .start__dot5 {
+        display: none;
+    }
+    .start__dot6 {
+        display: none;
+    }
+    .items__start:not(:first-child) {
+        margin-top: 20px;
+    }
+    
+    .items__start p{
+        margin-left: 10px ;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .items__start img{
+        padding: 6px 5px;
+    }
+    .sub-items__start{
+    }
+    .sub-items__start2{
+        margin: 0;
+    }
+    .sub-items__start3{
+        margin: 0;
+    }
+    .gold__img {
+        width: 403px;
+        height: 535px;
+        top: 350px;
+        left: -51px;
+    }
+    .btn__start {
+        padding: 10px;
+        max-width: 160px;
+        margin-left: 0px;
+        margin-top: 380px;
+    }
+    .start__btn {
+        padding: 36px 0 66px 0;
+        font-size: 16px;
+        line-height: 19px;
+        width: 140px;
+        height: 140px;
+    }
+    .start__btn::after {
+        top: 80px;
+        left: 60px;
+    }
+    
+}
+
+/*--------------------------------------------------------Слайдер------------------------------------------*/
+@media (max-width: 376px){
+
+    .services-container {
+        padding: 250px 0 211px 0;
+    }
+    .h2__services {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .title__services p {
+        margin-top: 15px;
+        max-width: 707px;
+    }
+    .swiper-container {
+        margin-top: 50px;
+    }
+    .swiper__block{
+        margin-right: 40px;
+    }
+    .swiper-wrapper-control {
+        margin-top: 79px;
+        display: flex;
+    }
+    .swiper-wrapper-control 
+    .swiper-buttons {
+        display: none;
+    }
+    .swiper-wrapper-control .swiper-pagination {
+        margin: -155px 0 0 -110px;
+    }
+    .btn__services{
+        display: block;
+        width: 330px;
+        margin: 0 auto 0;
+    }
+}
+
+/*--------------------------------------------------------О нашей компании------------------------------------------*/
+@media (max-width: 376px){
+    .about {
+        background:url("../images/main/about-bottom1.png"), 
+        url("../images/main/about-bottom2.png"), 
+        url("../images/main/about-bottom3.png"), 
+        radial-gradient(31.62% 32% at 18.41% -11.16%, rgba(242, 192, 93, 0.91) 0%, rgba(242, 192, 93, 0) 100%), 
+        radial-gradient(35.08% 73.16% at 80.81% 142.97%, rgba(242, 192, 93, 0.34) 0%, rgba(242, 192, 93, 0) 100%), #214E49;
+        background-repeat: no-repeat;
+        background-position: 90% 104%, 125% 100%, 75% 102%;
+        background-size: auto, 50%, auto;
+        position: relative;
+    }
+    .about-container {
+        padding: 273px 0 70px 0;
+    }
+    .benifits{
+        background: radial-gradient(35.08% 73.16% at 80.81% 142.97%, rgba(242, 192, 93, 0.44) 0%, rgba(242, 192, 93, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(54.39% 63.32% at -5.38% -39.26%, rgba(242, 192, 93, 0.38) 0%, rgba(242, 192, 93, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.05);
+    }
+    .header__about { 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .header__about img {
+        margin-top: -436px;
+        padding: 17px;
+        max-width: 90%;
+    }
+    .title__about {
+        margin: 0 0 0 0;
+     }
+    .h2__about {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .descr__about {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 330px;
+    }
+    .benifits1::before {
+        left: 217px;
+        top: -90px;
+    }
+    .btn__about-btn {
+        margin: 30px 0 -70px 80px;
+        max-width: 160px;
+        padding: 10px;
+    }
+
+    .btn__about-btn  .about__btn::after {
+        top: 89px;
+        left: 63px;
+    
+    }
+
+    .benifits3::before{
+        content: url("../images/main/benefits3-mobil.png");
+        left: 0px;
+        top: -110px;
+    }
+    .benifits2::before {
+        display: none;
+    }
+    .benifits4::before {
+        display: none;
+    }
+    .benifits4 {
+       margin-top: 120px;
+    }
+    .benifits__items {
+        margin-bottom: 60px;
+    }
+    .dot__about1 {
+        left: 5px;
+        top: 88px;
+    }
+    .dot__about2 {
+        left: 329px;
+        top: 230px;
+    }
+    .dot__about3{
+        display: none;
+    }
+    .dot__about4{
+        display: none;
+    }
+    .dot__about5 {
+        left: 110px;
+        top: 493px;
+    }
+    .dot__about6 {
+        display: none;
+    }
+    .dot__about7 {
+        display: none;
+    }
+    .dot__about8 {
+        display: none;
+    }
+    .dot__about9 {
+        left: 80%;
+        top: 94%;
+        z-index: 2;
+        opacity: 0.85;
+    }
+    
+}
+/*--------------------------------------------------------Как происходит работа над проектом------------------------------------------*/
+@media (max-width: 376px){
+    .how {
+        background: url("../images/main/how3-tab.png"), 
+        url("../images/main/how4_2-tab.png"), 
+        url("../images/main/how4-tab.png"),
+         url("../images/main/how1.png"),
+          url("../images/main/how2.png"),radial-gradient(60.28% 143.69% at -12.97% 110.36%, rgba(242, 192, 93, 0.33) 0%, rgba(242, 192, 93, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #214E49;
+        background-repeat: no-repeat;
+        background-position: 6% 100%, 50% 100%, 50% 100%, -20% 100%, 127% 100%;
+        background-size: 89%, 64%, 91%, 42%, 44%;
+        position: relative;
+    }
+    .how-container {
+        padding: 70px 0 300px 0;  
+    }
+    .h2__how {
+        margin: 0 auto;
+        max-width: 330px;
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .descr__how {
+        max-width: 330px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .items__how {
+        margin: 50px 0 0 0;
+    }
+    .item__how:nth-child(1) {
+        height: 300px;
+        margin: 0 auto;
+    }
+    .item__how:nth-child(2) {
+        margin: 45px auto 0;
+    }
+    .item__how:nth-child(3) {
+        margin: 45px auto 0;
+    }
+    
+    .item__how:nth-child(4) {
+        margin: 45px auto 0;
+    }
+    .item__how:nth-child(5) {
+        margin: 45px auto 0;
+    }
+    .btn__how{
+        top: -60px;
+        left: -15%;
+    }
+    .btn__how .about__btn::after {
+        top: 89px;
+        left: 63px;
+    }
+    .dot__how1 {
+        right: 35px;
+        top: 24px;
+    }
+    .dot__how2 {
+        left: 36%;
+        top: 32px;
+    }
+    .dot__how3 {
+        left: 22px;
+        top: 145px;
+    }
+    .dot__how4 {
+        display: none;
+    }
+    .dot__how5 {
+        display: none;
+    }
+    .dot__how6 {
+        left: 83px;
+        top: 1460px;
+        opacity: 0.4;
+    }
+    .dot__how7 {
+        display: none;
+    }
+    .dot__how8 {
+        display: none;
+    }
+    .dot__how9 {
+        left: 281px;
+        top: 2320px;
+        opacity: 0.2;
+    }
+    .dot__how10 {
+        display: none;
+    }
+    .dot__how11 {
+        display: none;
+    }
+    .dot__how12 {
+        display: none;
+    }
+    .dot__how13 {
+        left: 25px;
+        top: 2500px;
+    }
+    .dot__how14 {
+        display: none;
+    }
+
+
+
+}
+/*--------------------Портфолио----------------*/
+@media (max-width: 376px){
+    .portfolio-container {
+        padding: 120px 0 70px 0;
+    }
+    .h2__portfolio {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .link__portfolio {
+        
+        top: 600px;
+    }
+    .descr__slide-portfolio {
+        display: none;
+    }
+    .img__portfolio{
+        width: 310px;
+    }
+    .swiper-container2 .swiper-wrapper-control {
+            margin-top: 33px ;
+            left: 80px ;
+        }
+        .swiper-container2 .swiper-buttons {
+            display: none;
+        }
+    
+    .swiper-container2 {
+        margin-top: 50px;
+        padding-bottom: 270px;
+    }
+    .swiper-container2 .swiper-wrapper-control .swiper-pagination {
+        margin: 0 0 0 50px;
+    }
+}
+
+/*--------------------Акционные предложения----------------*/
+@media (max-width: 376px){
+    .stocks-container {
+        padding: 120px 0 168px 0;
+    }
+    .h2__stocks {
+        font-size: 35px;
+        line-height: 42px;
+        max-width: 330px;
+    }
+    .descr__stocks {
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 330px;
+    }
+    .items__stocks { 
+        margin-top: 35px;
+    }
+    .link__stocks {
+        padding: 20px 72.5px;
+        position: absolute;
+        top: 1120px;
+        text-align: center;
+        width: 330px;
+        display: block;
+    }
+    .item__stocks-a { 
+        padding-top: 176px;
+        width: 330px;
+        height: 229px;
+    }
+    .item__stocks-b { 
+        margin-top: 20px;
+        padding-top: 176px;
+        width: 330px;
+        height: 229px;
+    }
+    .item__stocks-c { 
+        margin-top: 20px;
+        padding-top: 176px;
+        width: 330px;
+        height: 229px;
+    }
+    .item__stocks-a:hover{
+        padding-top: 126px;
+    }
+    .item__stocks-a:hover .descr-item__stocks {
+    }
+    .item__stocks-a:hover .link-item__stocks{
+    }
+    .item__stocks-b:hover{
+        padding-top: 126px;
+    }
+    .item__stocks-b:hover .descr-item__stocks {
+    }
+    .item__stocks-b:hover .link-item__stocks{
+    }
+    .item__stocks-c:hover{
+        padding-top: 126px;
+    }
+    .item__stocks-c:hover .descr-item__stocks {
+    }
+    .item__stocks-c:hover .link-item__stocks{
+    }
+}
+
+/*----------------------Часто задаваемые вопросы----------------*/
+@media (max-width: 376px){
+    .questions-container {
+        padding: 69px 0 293px;
+    }
+    .dot__questions1 {
+        display: none;
+    }
+    .dot__questions2 {
+        display: none;
+    }
+    .dot__questions3 {
+        display: none;
+    }
+    .dot__questions4 {
+        display: none;
+    }
+    .dot__questions5 {
+        display: none;
+    }
+    .dot__questions6 {
+        display: none;
+    }
+    .dot__questions7 {
+        display: none;
+    }
+    .dot__questions8 {
+        display: none;
+    }
+    .dot__questions9 {
+        display: none;
+    }
+    .dot__questions10 {
+        display: none;
+    }
+    .dot__questions11 {
+        display: none;
+    }
+    .dot__questions12 {
+        display: none;
+    }
+    .dot__questions13 {
+        display: none;
+    }
+    .dot__questions14 {
+        display: none;
+    }
+    .dot__questions15 {
+        display: none;
+    }
+    .h2__questions {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .descr__questions {
+        margin: 15px auto 28px;
+    }
+    .showmore__questions{
+        display: none;
+    }
+    .accordion__title {
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 248px;
+        margin: 0;
+    }
+    .accordion__content {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .accordion__control {
+        padding: 20px 25px !important;
+    }
+    .reviews {
+        margin-top: 70px;
+    }
+    .h2__reviews {
+        font-size: 35px;
+        line-height: 42px;
+        margin: 0 30%;
+    }
+    .descr__reviews {
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 330px;
+        margin: 10px auto 0;
+    }
+    .reviews::before {
+        width: 345px;
+        height: 629px;
+        top: 184px;
+        left: 2.4%;
+    }
+    .descr-swiper__reviews {
+        max-width: 305px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+    .swiper-container3 {
+        margin: 90px 0 0 -50px;
+        padding: 0;
+    }
+    .swiper-buttons3 {
+        display: none;
+    }
+    .questions__btn {
+        top: 100%;
+        left: 60%;
+        max-width: 160px;
+        padding: 10px;
+
+    }
+
+    .about__btn {
+        width: 140px;
+        height: 140px;
+        padding: 36px 0 66px;
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+    .questions__btn .about__btn::after {
+        content: url("../images/main/arrow2.png");
+        position: absolute;
+        top: 89px;
+        left: 63px;
+    }
+
+    .spruce__questions {
+        left: 15.5%;
+        top: 83.1%;
+        width: 239px;
+        height: 472px;
+    }
+    .fon-spruce__questions {
+        left: 8%;
+        top: 89%;
+        width: 288px;
+        height: 392px;
+    }
+    .questions {
+        background: url("../images/main/decor-reviews3.png"),
+         url("../images/main/decor-reviews1-tab.png"), 
+         url("../images/main/decor-reviews2-mobil.png"), radial-gradient(24.11% 17.08% at 76.72% 106.55%, rgba(242, 192, 93, 0.34) 0%, rgba(242, 192, 93, 0) 100%), radial-gradient(24.62% 26.73% at -5.81% 34.44%, rgba(242, 192, 93, 0.33) 0%, rgba(242, 192, 93, 0) 100%), #214E49;
+         background-position: -39% 168%, -33% 83%, 100% 79%;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .swiper-wrapper-control-reviews .swiper-pagination {
+        margin: 0px 183px;
+    }
+}
+
+
+/*----------------------Footer----------------*/
+@media (max-width: 376px){
+
+    .footer-container {
+        padding: 342px 0 20px 0;
+    }
+    .form__footer {
+        
+    }
+    .form__footer legend {
+        max-width: 315px;
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .form__input {
+        width: 315px ;
+    }
+    .form__input:not(:first-child) {
+        margin-top: 20px;
+    }
+    .btn__form{
+        margin-left: 27%;
+        padding: 10px;
+        max-width: 160px;
+    }
+    .form__btn {
+        padding: 36px 0 66px 0;
+        font-size: 16px;
+        line-height: 19px;
+        width: 140px;
+        height: 140px;
+    }
+    .form__btn::after{
+        content: url("../images/main/arrow-mobil.png");
+        top: 89px;
+        left: 63px;
+    }
+    .form__btn:hover::after{
+        content: url("../images/main/arrow2-mobil.png");
+    }
+    .agreement-title {
+        max-width: 280px;
+    }
+
+    .footer__bottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first-footer__bottom  {
+    }
+    .first-footer__bottom img {
+        max-width: 100px;
+    }
+    .second-footer__bottom {
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        align-items: flex-start;
+    }
+    
+    .nav__footer {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 35px;
+    }
+    .nav__list-footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav__item-footer:first-child {
+        margin: 0 0 0 10px;
+    }
+    .nav__item-footer:nth-child(2) {
+        margin: 0px 0 0 70px;
+    }
+    .nav__item-footer:nth-child(3) {
+        margin: 0 0 0 70px;
+    }
+    .nav__item-footer:nth-child(4) {
+        margin: 10px 0 0 10px;
+    }
+    .nav__item-footer:nth-child(5) {
+        margin: 10px 0 0 70px;
+    }
+    .nav__item-footer:nth-child(6) {
+        margin: 10px 0 0 70px;
+    }
+    .nav__link-footer {
+        font-size: 14px;
+        line-height: 29px;
+    }
+    .second-footer__bottom p {
+        margin-top: 40px;
+        max-width: 330px;
+    }
+    .third-footer__bottom{
+    }
+    .contact__footer{
+        margin-top: 40px;
+    }
+    .phone__footer{
+        display: flex;
+        align-items: center;
+    }
+    .icon__footer {
+    }
+    .icon__footer:nth-child(2) {
+        margin: 0 15px 0 5px;
+    }
+    .footer__phone {
+        font-size: 24px !important;
+    }
+    .order__call{
+        max-width: 330px;
+        padding: 20px 92px;
+    }
+    .mail__footer {
+        margin-top: 20px;
+        text-align: left;
+    }
+    .adres__footer {
+        text-align: left;
+    }
+    .time {
+        text-align: left;
+    }
+}

@@ -1,0 +1,245 @@
+/*----------------------отзывы----------------*/
+@media (max-width: 376px){
+    .container {
+        max-width: 330px;
+        margin: 0 auto;
+        padding: 0px 15px;
+    }
+    .reviews-container {
+        padding: 25px 0 70px 0;
+    }
+    .breadcrumb-item__servicepage {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .breadcrumb-item__servicepage a {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .h2__reviews {
+        font-size: 35px;
+        line-height: 42px;
+        margin-top: 20px;
+    }
+    .descr__reviews {
+        margin-top: 10px;
+        max-width: 330px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .content__reviews {
+        margin-top:  137px;
+    }
+    .top__reviews {
+        flex-wrap: wrap;
+    }
+    .title__reviews {
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 255px;
+    }
+    .data__reviews {
+        margin: 5px 0 0 0;
+    }
+    .descr-content__reviews {
+        margin: 15px 0 0 0;
+        max-width: 270px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .items__reviews {
+        padding: 30px 30px 40px 30px;
+    }
+    .content__reviews {
+        margin-top: 169px;
+    }
+    .reviews__main{
+        margin-top: -560px;
+    }
+    .showmore__questions {
+        width: 330px;
+        margin: 35px auto 0;
+    }
+    .dot__header1 {
+        right: 55%;
+        top: 56px;
+    }
+    .dot__header3 {
+        left: 309px;
+        top: 161px;
+    }
+    .dot__header4 {
+        left: 3px;
+        top: 269px;
+    }
+    .header {
+        background:
+         url("../images/reviews/reviews4-tab.png"), 
+         url("../images/reviews/reviews3-tab.png"), 
+         url("../images/reviews/reviews2.png"), 
+         url("../images/reviews/reviews1.png"),  #214E49;
+         background-position: -5% 100%, 100% 105%, 47% 75%, -90% 93%;
+         background-repeat: no-repeat;
+         background-size: auto, auto, 135%, auto;
+    }
+    
+    .header__container {
+        padding: 15px 0px 20px 0px !important;
+    }
+    .burger{
+        margin: 0 0 0 210px;
+    }
+    .header__second{
+        display: none;
+    }
+    .logo__header{
+        max-width: 100px;
+    }
+    .header__invisible{
+        border-top:1px solid rgb(62, 139, 132, 0.3);
+        padding: 24px 0 0 0;
+        display: flex;
+        align-items: center;
+    }
+    .sub-menu__list {
+        max-width: 370px;
+    }
+    .sub-sub-menu__list{
+        left: 106.5%;
+        top: 0;
+        max-width: 370px;
+    }
+    body.touch .sub-sub-menu__list.open {
+        display: block;
+        transition: transform 0.6s ease-in-out;
+        left: 99%;
+        top: 19%;
+    }
+
+}
+/*----------------------Footer----------------*/
+@media (max-width: 376px){
+
+    .footer-container {
+        padding: 70px 0 20px 0;
+    }
+    .form__footer {
+        
+    }
+    .form__footer legend {
+        max-width: 315px;
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .form__input {
+        width: 315px ;
+    }
+    .form__input:not(:first-child) {
+        margin-top: 20px;
+    }
+    .btn__form{
+        margin-left: 27%;
+        padding: 10px;
+        max-width: 160px;
+    }
+    .form__btn {
+        padding: 36px 0 66px 0;
+        font-size: 16px;
+        line-height: 19px;
+        width: 140px;
+        height: 140px;
+    }
+    .form__btn::after{
+        content: url("../images/main/arrow-mobil.png");
+        top: 89px;
+        left: 63px;
+    }
+    .form__btn:hover::after{
+        content: url("../images/main/arrow2-mobil.png");
+    }
+    .agreement-title {
+        max-width: 280px;
+    }
+
+    .footer__bottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first-footer__bottom  {
+    }
+    .first-footer__bottom img {
+        max-width: 100px;
+    }
+    .second-footer__bottom {
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        align-items: flex-start;
+    }
+    
+    .nav__footer {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 35px;
+    }
+    .nav__list-footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav__item-footer:first-child {
+        margin: 0 0 0 10px;
+    }
+    .nav__item-footer:nth-child(2) {
+        margin: 0px 0 0 70px;
+    }
+    .nav__item-footer:nth-child(3) {
+        margin: 0 0 0 70px;
+    }
+    .nav__item-footer:nth-child(4) {
+        margin: 10px 0 0 10px;
+    }
+    .nav__item-footer:nth-child(5) {
+        margin: 10px 0 0 70px;
+    }
+    .nav__item-footer:nth-child(6) {
+        margin: 10px 0 0 70px;
+    }
+    .nav__link-footer {
+        font-size: 14px;
+        line-height: 29px;
+    }
+    .second-footer__bottom p {
+        margin-top: 40px;
+        max-width: 330px;
+    }
+    .third-footer__bottom{
+    }
+    .contact__footer{
+        margin-top: 40px;
+    }
+    .phone__footer{
+        display: flex;
+        align-items: center;
+    }
+    .icon__footer {
+    }
+    .icon__footer:nth-child(2) {
+        margin: 0 15px 0 5px;
+    }
+    .footer__phone {
+        font-size: 24px !important;
+    }
+    .order__call{
+        max-width: 330px;
+        padding: 20px 92px;
+    }
+    .mail__footer {
+        margin-top: 20px;
+        text-align: left;
+    }
+    .adres__footer {
+        text-align: left;
+    }
+    .time {
+        text-align: left;
+    }
+}

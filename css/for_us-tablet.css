@@ -1,0 +1,440 @@
+/*-----------------burger-----*/
+@media (max-width: 768px){
+    .container {
+        max-width: 708px;
+        margin: 0 auto;
+        padding: 0px 0px;
+    }
+    .header__container {
+        padding: 34px 0px 46px 0px !important;
+    }
+    .burger{
+        margin: 0 0 0 292px;
+        display: block;
+    }
+    .header{
+    }
+    
+    .menu{
+        position: fixed;
+        left: -10px;
+        top: 80px;
+        background-color: #ffffff;
+        z-index: 100;
+        padding: 0px 20px 150px 15px;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-100%);
+        transition: transform 0.6s ease-in-out ;
+        overflow: auto;
+    }
+    .menu__list{
+        padding: 50px 0 0 0;
+        border-top: 1px solid rgb(62, 139, 132, 0.3);
+        flex-direction: column;
+    }
+    .menu__list > li{
+        margin-bottom: 25px;
+    }
+    .menu--visible {
+        transform: none;
+        transition: transform 0.6s ease-in-out
+      }
+    .sub-menu__list {
+        border: 1px solid #F1F1F1;
+        position: relative;
+        left: -15px;
+        top: 0;
+        width: 768px;
+        background-color: #F1F1F1;
+        transition: transform 0.6s ease-in-out;
+        padding: 20px 20px 50px 15px;
+    }
+    .sub-menu__list > li {
+        margin: 15px 0 15px 15px;
+        background-color: #F1F1F1;
+        
+    }
+    .sub-menu__list a{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #414141;
+    }
+    .sub-sub-menu__list{
+        position: fixed;
+        border: 1px solid rgb(62, 139, 132, 0.3);
+        left: 0%;
+        top: 0;
+        background-color: #ffffff;
+        z-index: 101;
+        padding: 50px 20px 150px 15px;
+        width: 768px;
+        height: 100%;
+        transform: translateX(-100%);
+        transition: transform 0.6s ease-in-out ;
+    }
+    .sub-sub-menu__list--visible {
+        transform: none;
+        transition: transform 0.6s ease-in-out
+      }
+      .sub-sub-menu__list > li {
+        margin: 15px 0 15px 15px;
+      }
+      body.touch .sub-sub-menu__list.open{
+        display: block;
+        transition: transform 0.6s ease-in-out;
+        left: 100%;
+        top: 19%;
+    }
+.navigation-sub-sub-menu__list{
+        display: block;
+   }
+
+
+}
+/*--------------------------------------------------------О нашей компании------------------------------------------*/
+@media (max-width: 768px){
+    .descr__about {
+        margin-top: 15px;
+        max-width: 707px;
+    }
+    .header__about img {
+        margin: 32px auto 0;
+        max-width: 67%;
+    }
+    .bottom__about{
+        margin-top: -430px;
+        padding: 700px 0 120px 0;
+    }
+    .benifits{
+        flex-wrap: wrap;
+    }
+    .header__about img {
+        margin-top: 32px;
+        padding: 17px;
+        max-width: 64%;
+    }
+    .title__about {
+        margin: 60px 0 0 0;
+     }
+    .h2__about {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .benifits1::before {
+        content: url("../images/main/benefits1-tab.png");
+        top: -120px;
+        left: 587px;
+    }
+    .btn__about-btn {
+        position: relative;
+        margin: 0 0 -35px 385px;
+    }
+    .benifits3::before{
+        left: 0px;
+    }
+    .benifits2::before {
+        top: -335px;
+        left: -60px;
+    }
+    .benifits4::before {
+        top: 180px;
+    }
+    .benifits{
+        background: radial-gradient(35.08% 73.16% at 80.81% 142.97%, rgba(242, 192, 93, 0.44) 0%, rgba(242, 192, 93, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(54.39% 63.32% at -5.38% -39.26%, rgba(242, 192, 93, 0.38) 0%, rgba(242, 192, 93, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.05);
+        box-shadow: inset 2px 1px 0px #457772;
+        backdrop-filter: blur(30px);
+        padding: 90px 57px 30px 57px;
+    }
+    .benifits__items {
+        margin-bottom: 60px;
+    }
+    .btn__about {
+        margin-left: 435px;
+        margin-top: 80px;
+    }
+    .bottom__about{
+        background:url("../images/main/about-bottom1.png"), 
+        url("../images/main/about-bottom2.png"), 
+        url("../images/main/about-bottom3.png"), 
+        radial-gradient(31.62% 32% at 18.41% -11.16%, rgba(242, 192, 93, 0.91) 0%, rgba(242, 192, 93, 0) 100%), 
+        radial-gradient(35.08% 73.16% at 80.81% 142.97%, rgba(242, 192, 93, 0.34) 0%, rgba(242, 192, 93, 0) 100%), #214E49;
+        background-repeat: no-repeat;
+        background-position:-320% 103%, 121% 100%, 0% 102%;
+        background-size: auto, 50%, auto;
+    }
+    .dot__about6 {
+        left: 660px;
+        top: 1600px;
+        z-index: 2;
+        opacity: 0.85;
+    }
+    .dot__about8 {
+        width: 11.94px;
+        height: 11.94px;
+        left: 50%;
+        top: 1709px;
+        opacity: 0.2;
+    }
+}
+
+/*--------------------------------------------------------Как происходит работа над проектом------------------------------------------*/
+@media (max-width: 768px){
+    .how {
+        background: url("../images/main/how3-tab.png"), 
+        url("../images/main/how4_2-tab.png"), 
+        url("../images/main/how4-tab.png"),
+         url("../images/main/how1.png"),
+          url("../images/main/how2.png"),radial-gradient(60.28% 143.69% at -12.97% 110.36%, rgba(242, 192, 93, 0.33) 0%, rgba(242, 192, 93, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #214E49;
+        background-repeat: no-repeat;
+        background-position: 6% 100%, 50% 100%, 50% 100%, -20% 100%, 127% 100%;
+        background-size: 89%, 64%, 91%, 42%, 44%;
+        position: relative;
+    }
+    .how-container {
+        padding: 120px 0 645px 0;  
+    }
+    .h2__how {
+        margin: 0 auto;
+        max-width: 500px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .descr__how {
+        max-width: 526px;
+    }
+    .items__how {
+        justify-content: space-between;
+    }
+    .item__how {
+        margin: 0 0 0 0;
+    }
+    .item__how:nth-child(3) {
+        margin-top: 55px;
+    }
+    
+    .item__how:nth-child(4) {
+        margin-top: 100px;
+    }
+    .item__how:nth-child(5) {
+        margin-top: 50px;
+        max-height: 368px;
+    }
+    .btn__how {
+        top: 1300px;
+        left: 50px;
+    }
+    .dot__how2 {
+        left: 47%;
+        top: 92px;
+    }
+    .dot__how3 {
+        left: 53px;
+        top: 68px;
+    }
+    .dot__how4 {
+        left: 513px;
+        top: 372px;
+    }
+    .dot__how5 {
+        display: none;
+    }
+    .dot__how6 {
+        left: 185px;
+        top: 760px;
+        opacity: 0.85;
+    }
+    .dot__how7 {
+        display: none;
+    }
+    .dot__how8 {
+        display: none;
+    }
+    .dot__how9 {
+        left: 394px;
+        top: 1377px;
+        width: 17px;
+        height: 17px;
+        background: radial-gradient(50% 50% at 50% 50%, #FFF98A 0%, rgba(255, 249, 138, 0) 100%);
+        mix-blend-mode: normal;
+        opacity: 0.4;
+    }
+    .dot__how10 {
+        display: none;
+    }
+    .dot__how11 {
+        display: none;
+    }
+    .dot__how12 {
+        display: none;
+    }
+    .dot__how13 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 54px;
+        top: 1779px;
+        background: radial-gradient(50% 50% at 50% 50%, #FFF98A 0%, rgba(255, 249, 138, 0) 100%);
+        mix-blend-mode: normal;
+        opacity: 0.4;
+    }
+    .dot__how14 {
+        left: 651px;
+        top: 1680px;
+    }
+
+
+
+}
+
+
+/*--------------------------------------------------------Награды и сертификаты------------------------------------------*/
+@media (max-width: 768px){
+    .awards-container {
+        padding: 120px 0;
+    }
+    .h2__awards {
+        font-size: 40px;
+        line-height: 48px;
+     }
+    .items__awards {    
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .item__awards {
+        width: 344px;
+        height: 455px;
+    }
+
+}
+
+/*--------------------------------------------------------Отзывы слайдер------------------------------------------*/
+@media (max-width: 768px){
+    .reviews-container {
+        padding: 120px 0 110px 0;
+    }
+    .h2__reviews {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .title__reviews {
+    }
+    .descr__reviews {
+        margin-top: 15px;
+        max-width: 435px;
+    }
+    .link__reviews {
+    }
+    .data__reviews {
+        margin: 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ACACAC;
+    }
+    .descr-content__reviews {
+        max-width: 354px;
+    }
+    .swiper-wrapper-control{
+        margin-top: 93px;
+    }
+    .swiper-pagination{
+        margin: -25px 0 0 451px;
+    }
+    .items__reviews {
+        width: 434px !important;
+        padding: 28px 40px 88px 50px;
+    }
+}
+
+
+
+
+
+
+/*----------------------Footer----------------*/
+@media (max-width: 768px){
+    .footer {
+    }
+    .footer-container {
+        padding: 120px 0 90px 0;
+    }
+    .footer__header {}
+    .form__footer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .form__footer fieldset{
+        margin-top: 50px;
+    }
+    .form__footer legend {
+        max-width: 708px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .form__input {
+        width: 708px ;
+    }
+    .form__input:not(:first-child) {
+        margin-top: 20px;
+    }
+    .form__input input{
+        outline: none;
+        padding: 20px 30px;
+        width: 100%;
+    }
+    .btn__form{
+        margin-left: 265px;
+    }
+    .agreement-title {
+        max-width: 673px;
+    }
+    .footer__bottom {
+    }
+    .first-footer__bottom {}
+    .second-footer__bottom p {
+        max-width: 213px;
+    }
+    .second-footer__bottom {
+        margin-top: -104px;
+    }
+    .nav__footer {
+        margin-top: 13px;
+    }
+    .nav__list-footer {}
+    .nav__item-footer:not(:first-child) {
+    }
+    .nav__link-footer {
+        line-height: 33px;
+    }
+    .third-footer__bottom{
+        margin-top: 5px;
+    }
+    .phone__footer{
+        display: flex;
+        align-items: center;
+    }
+    .icon__footer {
+    }
+    .icon__footer:nth-child(2) {
+        margin: 0 15px 0 5px;
+    }
+    .footer__phone {
+        font-size: 24px ;
+    }
+    .order__call{
+        max-width: 272px;
+        margin-top: 15px;
+        padding: 13px 63.5px;
+    }
+    .mail__footer {
+        line-height: 33px;
+    }
+    .adres__footer {
+        line-height: 33px;
+    }
+    .time {
+    }
+}
